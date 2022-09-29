@@ -112,9 +112,9 @@ export default function Login() {
     );
   }
 
-  if (state.isAuth) {
-    return <Navigate to="/" />;
-  }
+  // if (state.isAuth) {
+  //   return <Navigate to="/" />;
+  // }
 
   return (
     <Container w="500px" h="500px" margin="auto" mt="60px">
