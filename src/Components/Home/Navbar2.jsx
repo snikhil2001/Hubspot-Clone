@@ -6,10 +6,7 @@ import {
   Popover,
   PopoverTrigger,
   PopoverContent,
-  PopoverHeader,
   PopoverBody,
-  PopoverFooter,
-  PopoverAnchor,
   Box,
   Heading,
   Link,
@@ -32,7 +29,7 @@ const navbarhub = [
   },
   {
     heading: "Service Hub",
-    image: "https://cdn-icons-png.flaticon.com/128/7422/7422064.png",
+    image: "https://cdn-icons-png.flaticon.com/128/7854/7854899.png",
     text: "Customer Service Software",
   },
   {

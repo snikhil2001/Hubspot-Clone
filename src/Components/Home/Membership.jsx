@@ -21,7 +21,7 @@ const membership = [
     navigate: "/saleshub",
   },
   {
-    src: "https://cdn-icons-png.flaticon.com/128/7422/7422064.png",
+    src: "https://cdn-icons-png.flaticon.com/128/7854/7854899.png",
     heading: "Service Hub",
     text: "Customer service software to help you connect with customers, exceed expectations, and turn them into promoters who grow your business.",
     link1: "Tickets",
