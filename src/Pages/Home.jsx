@@ -5,6 +5,10 @@ import { Container } from "@chakra-ui/react";
 import LearnMore from "../Components/Home/LearnMore";
 import HomeBanner from "../Components/Home/HomeBanner";
 import Membership from "../Components/Home/Membership";
+import Features from "../Components/Home/Features";
+import CustomerCount from "../Components/Home/CustomerCount";
+import StartFree from "../Components/Home/StartFree";
+import Footer from "../Components/Home/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +18,10 @@ export default function Home() {
       <LearnMore />
       <HomeBanner />
       <Membership />
+      <Features />
+      <CustomerCount />
+      <StartFree />
+      <Footer />
     </Container>
   );
 }
