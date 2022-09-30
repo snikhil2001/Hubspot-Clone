@@ -6,8 +6,7 @@ export default function PrivateRoute({ children }) {
   const { state } = useContext(authContext);
 
   if (!state.isAuth) {
-    alert("Please login to continue");
-    return <Navigate to="/" />;
+    return <Navigate to="/login" />;
   }
   return children;
 }

@@ -9,6 +9,7 @@ const membership = [
     link1: "Lead Generation",
     link2: "Marketing Automation",
     link3: "Analytics",
+    navigate: "/marketinghub",
   },
   {
     src: "https://cdn-icons-png.flaticon.com/128/7422/7422064.png",
@@ -17,6 +18,7 @@ const membership = [
     link1: "Advanced CRM",
     link2: "Meeting Scheduling",
     link3: "Payments",
+    navigate: "/saleshub",
   },
   {
     src: "https://cdn-icons-png.flaticon.com/128/7854/7854899.png",
@@ -89,6 +91,7 @@ export default function Membership() {
               link1={el.link1}
               link2={el.link2}
               link3={el.link3}
+              navigate={el.navigate}
             />
           );
         })}

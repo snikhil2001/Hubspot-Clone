@@ -7,9 +7,10 @@ import {
   Divider,
   Image,
 } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 export default function MembershipHub(props) {
-  const { src, heading, text, link1, link2, link3 } = props;
+  const { src, heading, text, link1, link2, link3, navigate } = props;
   return (
     <Box textAlign="center" boxShadow="md" p="20px 40px" w="400px">
       <Flex gap={3} justify="center" align="center" pb="30px">
@@ -51,7 +52,7 @@ export default function MembershipHub(props) {
         color="white"
         p="20px 80px"
       >
-        Get Started
+        <Link to={navigate}>Get Started</Link>
       </Button>
     </Box>
   );
