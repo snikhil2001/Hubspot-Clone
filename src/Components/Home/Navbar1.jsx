@@ -2,13 +2,11 @@ import {
   Flex,
   Link,
   Image,
-  Button,
   Box,
   Menu,
   MenuButton,
   MenuList,
   MenuItem,
-  Text,
 } from "@chakra-ui/react";
 import { ChevronDownIcon, Search2Icon } from "@chakra-ui/icons";
 import { NavLink } from "react-router-dom";
