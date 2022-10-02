@@ -9,10 +9,11 @@ import {
   PopoverBody,
   Box,
   Heading,
-  Link,
   SimpleGrid,
   Button,
 } from "@chakra-ui/react";
+
+import { Link } from "react-router-dom";
 
 import Navbar2Hub from "./Navbar2Hub";
 
@@ -115,7 +116,7 @@ export default function Navbar2() {
             </PopoverBody>
           </PopoverContent>
         </Popover>
-        <Link fontSize="18px" fontWeight="500">
+        <Link to="/pricing" style={{ fontSize: "18px", fontWeight: "500" }}>
           Pricing
         </Link>
         <Popover trigger="hover">

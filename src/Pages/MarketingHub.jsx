@@ -1,12 +1,4 @@
-import {
-  Box,
-  Heading,
-  Text,
-  Flex,
-  Container,
-  Divider,
-  Image,
-} from "@chakra-ui/react";
+import { Box, Heading, Text, Flex, Divider, Image } from "@chakra-ui/react";
 
 export default function MarketingHub() {
   return (
