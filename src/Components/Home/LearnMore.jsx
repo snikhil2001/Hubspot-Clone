@@ -1,4 +1,4 @@
-import { Text, Flex, Button, Box } from "@chakra-ui/react";
+import { Link, Text, Flex, Button, Box } from "@chakra-ui/react";
 
 export default function LearnMore() {
   return (
@@ -18,7 +18,12 @@ export default function LearnMore() {
           Marketing Automation Platforms for the second year.
         </Text>
       </Box>
-      <Button>Learn More</Button>
+      <Button
+        as={Link}
+        href="https://offers.hubspot.com/b2b-marketing-automation-magic-quadrant-report?hubs_signup-cta=promo-banner-website&hubs_signup-url=www.hubspot.com&__hstc=185665590.02de52fc46b9876a7c8be911774ae1f4.1664300299276.1664300299276.1664300299276.1&__hssc=185665590.5557.1664732078943&__hsfp=4080244219&_ga=2.194375342.2062048943.1664300300-1540596056.1664300300"
+      >
+        Learn More
+      </Button>
     </Flex>
   );
 }

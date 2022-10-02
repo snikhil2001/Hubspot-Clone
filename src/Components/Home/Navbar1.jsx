@@ -37,8 +37,9 @@ export default function Navbar1() {
               Language
               <ChevronDownIcon color="blue" />
             </MenuButton>
-            <MenuList minW="50px">
+            <MenuList bgColor="white" zIndex={20} minW="50px">
               <MenuItem
+                as={Link}
                 _hover={{
                   bgColor: "white",
                   color: "teal.600",
@@ -96,6 +97,7 @@ export default function Navbar1() {
           <Link
             fontSize="14px"
             _hover={{ color: "blue", textDecoration: "underline" }}
+            href="https://offers.hubspot.com/contact-sales?__hstc=185665590.02de52fc46b9876a7c8be911774ae1f4.1664300299276.1664300299276.1664300299276.1&__hssc=185665590.5557.1664732078943&__hsfp=4080244219&hubs_signup-url=www.hubspot.com%2F&hubs_signup-cta=homepage-nav-contact-sales&_ga=2.90719257.2062048943.1664300300-1540596056.1664300300"
           >
             Contact Sales
           </Link>
@@ -117,6 +119,7 @@ export default function Navbar1() {
             _hover={{ color: "teal.500", textDecoration: "underline" }}
             fontWeight="500"
             fontSize="14px"
+            href="https://help.hubspot.com/?__hstc=185665590.02de52fc46b9876a7c8be911774ae1f4.1664300299276.1664300299276.1664300299276.1&__hssc=185665590.5557.1664732078943&__hsfp=4080244219&_ga=2.84943642.2062048943.1664300300-1540596056.1664300300"
           >
             Customer Support
           </Link>
@@ -131,8 +134,10 @@ export default function Navbar1() {
             About
             <ChevronDownIcon color="blue" />
           </MenuButton>
-          <MenuList minW="200px">
+          <MenuList minW="200px" bgColor="white" zIndex={20}>
             <MenuItem
+              as={Link}
+              href="https://www.hubspot.com/our-story?__hstc=185665590.02de52fc46b9876a7c8be911774ae1f4.1664300299276.1664300299276.1664300299276.1&__hssc=185665590.5557.1664732078943&__hsfp=4080244219&_ga=2.123069320.2062048943.1664300300-1540596056.1664300300"
               _hover={{
                 bgColor: "white",
                 color: "teal.600",
@@ -142,6 +147,8 @@ export default function Navbar1() {
               About US
             </MenuItem>
             <MenuItem
+              as={Link}
+              href="https://www.hubspot.com/careers?__hstc=185665590.02de52fc46b9876a7c8be911774ae1f4.1664300299276.1664300299276.1664300299276.1&__hssc=185665590.5557.1664732078943&__hsfp=4080244219&_ga=2.123069320.2062048943.1664300300-1540596056.1664300300"
               _hover={{
                 bgColor: "white",
                 color: "teal.600",
@@ -151,6 +158,8 @@ export default function Navbar1() {
               Career
             </MenuItem>
             <MenuItem
+              as={Link}
+              href="https://www.hubspot.com/company/contact?__hstc=185665590.02de52fc46b9876a7c8be911774ae1f4.1664300299276.1664300299276.1664300299276.1&__hssc=185665590.5557.1664732078943&__hsfp=4080244219&_ga=2.123069320.2062048943.1664300300-1540596056.1664300300"
               _hover={{
                 bgColor: "white",
                 color: "teal.600",
@@ -160,6 +169,8 @@ export default function Navbar1() {
               Contact Us
             </MenuItem>
             <MenuItem
+              as={Link}
+              href="https://ir.hubspot.com/?__hstc=185665590.02de52fc46b9876a7c8be911774ae1f4.1664300299276.1664300299276.1664300299276.1&__hssc=185665590.5557.1664732078943&__hsfp=4080244219&_ga=2.85813146.2062048943.1664300300-1540596056.1664300300"
               _hover={{
                 bgColor: "white",
                 color: "teal.600",
@@ -169,6 +180,8 @@ export default function Navbar1() {
               Investor Relations
             </MenuItem>
             <MenuItem
+              as={Link}
+              href="https://www.hubspot.com/company/management?__hstc=185665590.02de52fc46b9876a7c8be911774ae1f4.1664300299276.1664300299276.1664300299276.1&__hssc=185665590.5557.1664732078943&__hsfp=4080244219&_ga=2.123069320.2062048943.1664300300-1540596056.1664300300"
               _hover={{
                 bgColor: "white",
                 color: "teal.600",

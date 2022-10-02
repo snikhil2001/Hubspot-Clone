@@ -1,4 +1,12 @@
-import { Box, Button, Flex, Heading, Text, Image } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Flex,
+  Heading,
+  Text,
+  Image,
+  Link,
+} from "@chakra-ui/react";
 
 export default function StartFree() {
   return (
@@ -26,8 +34,10 @@ export default function StartFree() {
           fontSize="20px"
           bgColor="#ff5c35"
           color="white"
-          _hover={{ background: "#ffcec2" }}
+          _hover={{ background: "#ffcec2", textDecoration: "none" }}
           mb="20px"
+          as={Link}
+          href="https://www.hubspot.com/products/get-started?hubs_content=www.hubspot.com%2F&hubs_content-cta=homepage-hero-cta&__hstc=185665590.02de52fc46b9876a7c8be911774ae1f4.1664300299276.1664300299276.1664300299276.1&__hssc=185665590.5557.1664732078943&__hsfp=4080244219&_ga=2.123069320.2062048943.1664300300-1540596056.1664300300"
         >
           Start Free or Get Demo
         </Button>
