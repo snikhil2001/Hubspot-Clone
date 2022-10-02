@@ -8,7 +8,9 @@ import {
   Tab,
   Button,
 } from "@chakra-ui/react";
+import FAQ from "./FAQ";
 import FreeTools from "./FreeTools";
+import Guarantee from "./Guarantee";
 
 export default function GrowBetter() {
   return (
@@ -18,6 +20,7 @@ export default function GrowBetter() {
       bgColor="rgb(0, 189, 165)"
       backgroundImage="linear-gradient(-303deg, rgb(0, 164, 189), 0%, rgb(0, 175, 178) 56%, rgb(0, 189, 165) 100%)"
       h="220px"
+      mb="2100px"
     >
       <Heading fontSize="28px" textAlign="center" pt="40px" color="white">
         Grow Better with the right plan
@@ -138,6 +141,8 @@ export default function GrowBetter() {
                 </Button>
               </Box>
               <FreeTools />
+              <Guarantee />
+              <FAQ />
             </TabPanels>
           </Tabs>
         </TabPanels>
