@@ -4,6 +4,7 @@ import Login from "../Pages/Login";
 import MarketingHub from "../Pages/MarketingHub";
 import SalesHub from "../Pages/SalesHub";
 import PrivateRoute from "../Components/PrivateRoute";
+import Pricing from "../Pages/Pricing";
 
 export default function AllRoutes() {
   return (
@@ -23,6 +24,14 @@ export default function AllRoutes() {
         element={
           <PrivateRoute>
             <SalesHub />
+          </PrivateRoute>
+        }
+      ></Route>
+      <Route
+        path="/pricing"
+        element={
+          <PrivateRoute>
+            <Pricing />
           </PrivateRoute>
         }
       ></Route>
